@@ -1,0 +1,68 @@
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #FFCEFE;
+  text-align: center;
+}
+
+h1,h2,h3{
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  color:  #FFCEFE;
+  letter-spacing: 1px;
+}
+
+.round-pic{
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 50%;
+  border: 3px solid #AAE3E2;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 300;
+}
+
+/* unvisited link & visited link*/
+a:link, a:visited {
+  color: black;
+}
+
+/* mouse over link, selected link */
+a:hover, a:active {
+  color: hotpink;
+}
+
+.button{
+  padding: 10px;
+  font-weight: 600;
+  background-color: #AAE3E2;
+  border-radius: 12px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+}
+
+div{
+  width: auto;
+  margin: 50px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: hotpink 0px 10px 23px -4px;
+}
+
+.list_inline{
+  padding: 0;
+}
+
+.list_inline li{
+  display: inline;
+  max-width: 5%;
+  max-height: 5%;
+}
+
+i{
+  font-size: 50px;
+  margin: 8px;
+}
