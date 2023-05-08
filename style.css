@@ -1,13 +1,22 @@
 body{
   font-family: 'Inter', sans-serif;
-  background-color:black;
+  background-color: black;
   text-align: center;
+  cursor: auto;
 }
 
-h1,h2,h3{
+h1{
   font-family: 'Kanit', sans-serif;
   font-weight: bold;
-  font-size: 100%;
+  font-size: 200%;
+  color: black;
+  letter-spacing: 1px;
+}
+
+h2,h3{
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  font-size: 160%;
   color: black;
   letter-spacing: 1px;
 }
