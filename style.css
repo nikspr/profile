@@ -1,13 +1,14 @@
 body{
   font-family: 'Inter', sans-serif;
-  background-color: #FFCEFE;
+  background-color:black;
   text-align: center;
 }
 
 h1,h2,h3{
   font-family: 'Kanit', sans-serif;
   font-weight: bold;
-  color:  #FFCEFE;
+  font-size: 100%;
+  color: black;
   letter-spacing: 1px;
 }
 
@@ -15,7 +16,7 @@ h1,h2,h3{
   max-width: 20%;
   max-height: 20%;
   border-radius: 50%;
-  border: 3px solid #AAE3E2;
+  border: 1px solid black;
 }
 
 a{
@@ -30,26 +31,30 @@ a:link, a:visited {
 
 /* mouse over link, selected link */
 a:hover, a:active {
-  color: hotpink;
+  color: #FFCEFE;
 }
 
 .button{
   padding: 10px;
   font-weight: 600;
-  background-color: #AAE3E2;
+  background-color: #FFCEFE;
   border-radius: 12px;
   cursor: pointer;
   justify-content: center;
   text-align: center;
 }
 
+.button:hover{
+  background-color: black;
+}
+
 div{
   width: auto;
-  margin: 50px 100px;
+  margin: 40px 5%;
   background: white;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: hotpink 0px 10px 23px -4px;
+  box-shadow: #f7e0f6 0px 10px 23px -4px;
 }
 
 .list_inline{
